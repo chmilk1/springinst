@@ -18,7 +18,10 @@ public class Post {
     String body;
     Date postedOn;
 
-    protected Post(Long id, String title, String body, Date postedOn) {
+    Post() {
+    }
+
+    public Post(Long id, String title, String body, Date postedOn) {
         this.id = id;
         this.title = title;
         this.body = body;
